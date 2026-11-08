@@ -1,0 +1,12 @@
+[project]
+name = "legal-consistency"
+version = "0.1.0"
+description = "Run-to-run and prompt-order consistency of open-weight LLMs on LegalBench rule-application tasks"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 130
